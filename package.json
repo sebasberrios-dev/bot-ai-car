@@ -1,0 +1,12 @@
+{
+  "name": "bot-ai-car",
+  "private": true,
+  "scripts": {
+    "dev:api": "pnpm --filter api dev",
+    "build:api": "pnpm --filter api build",
+    "dev:widget": "pnpm --filter widget dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
